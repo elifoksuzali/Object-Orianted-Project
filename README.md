@@ -131,26 +131,6 @@ java -cp "build/classes;lib/sqlite-jdbc-3.32.3.2.jar" MyFrame.Main
 
 ---
 
-## 🔧 Bu Sürümde Yapılan Düzenlemeler
-
-Projenin paylaşıma uygun hale getirilmesi için aşağıdaki temizlikler yapıldı:
-
-- **Makineye özel mutlak yol kaldırıldı:** `nbproject/project.properties` içindeki
-  `C:\Users\Elif\Desktop\sqlite-jdbc-...jar` referansı, taşınabilir olması için
-  `lib/sqlite-jdbc-3.32.3.2.jar` göreli yoluna çevrildi.
-- **Kullanıcıya özel NetBeans ayarları çıkarıldı:** `nbproject/private/` (mutlak yollar ve
-  kullanıcı adı içeriyordu) ve yeniden üretilebilen `build/`, `dist/` klasörleri repodan hariç tutuldu.
-- **Sabit kodlanmış kişisel bilgiler maskelendi:** Örnek kullanıcı adı ve telefon numarası
-  placeholder değerlerle (`KULLANICI_ADI`, `XXX XXX XX XX`) değiştirildi.
-- **Ölü/gereksiz kod temizlendi:** Kullanılmayan debug metotları (`queryTest`, `showList`),
-  yorum satırına alınmış kod blokları ve kullanılmayan `import`'lar kaldırıldı.
-- **`.gitignore` eklendi.**
-
-> Not: İncelemede gerçek bir **API anahtarı / gizli token bulunmamıştır**; proje yerel bir
-> SQLite uygulamasıdır. "Gizlenmesi gereken" tek öğeler yukarıdaki makineye özel yollar ve
-> kişisel bilgilerdi.
-
----
 
 ## 📄 Lisans
 
