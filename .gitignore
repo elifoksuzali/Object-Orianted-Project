@@ -1,0 +1,30 @@
+# Derleme çıktıları (NetBeans/Ant yeniden üretir)
+/build/
+/dist/
+
+# Kullanıcıya özel NetBeans ayarları (mutlak yollar / makine bilgisi içerir)
+/nbproject/private/
+
+# IDE
+/.idea/
+*.iml
+.vscode/
+
+# Java
+*.class
+
+# Python / Jupyter artıkları
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# İşletim sistemi
+Thumbs.db
+.DS_Store
+
+# NOT: *.db dosyaları örnek veri olarak repoda tutuluyor.
+# Gerçek müşteri/kullanıcı verisi içeriyorlarsa repoya EKLEMEYİN:
+# Personel.db
+# Satislar.db
+# Stok.db
+# UrunEkle.db
